@@ -7,6 +7,7 @@ import ResponsiveObserve, {
   Breakpoint,
   ScreenMap,
   responsiveArray,
+  getScreenMap,
 } from '../_util/responsiveObserve';
 import useFlexGapSupport from '../_util/hooks/useFlexGapSupport';
 
@@ -37,14 +38,7 @@ const Row = React.forwardRef<HTMLDivElement, RowProps>((props, ref) => {
 
   const { getPrefixCls, direction } = React.useContext(ConfigContext);
 
-  const [screens, setScreens] = React.useState<ScreenMap>({
-    xs: true,
-    sm: true,
-    md: true,
-    lg: true,
-    xl: true,
-    xxl: true,
-  });
+  const [screens, setScreens] = React.useState<ScreenMap>(() => getScreenMap());
 
   const supportFlexGap = useFlexGapSupport();
 
@@ -116,11 +110,10 @@ const Row = React.forwardRef<HTMLDivElement, RowProps>((props, ref) => {
     rowStyle.marginBottom = verticalGutter;
   }
 
-  const rowContext = React.useMemo(() => ({ gutter: gutters, wrap, supportFlexGap }), [
-    gutters,
-    wrap,
-    supportFlexGap,
-  ]);
+  const rowContext = React.useMemo(
+    () => ({ gutter: gutters, wrap, supportFlexGap }),
+    [gutters, wrap, supportFlexGap],
+  );
 
   return (
     <RowContext.Provider value={rowContext}>

@@ -1190,7 +1190,9 @@ exports[`renders ./components/list/demo/resposive.md correctly 1`] = `
         class="ant-row"
         style="margin-left:-8px;margin-right:-8px"
       >
-        <div>
+        <div
+          style="width:100%;max-width:100%"
+        >
           <div
             class="ant-col"
             style="padding-left:8px;padding-right:8px;flex:1 1 auto"
@@ -1223,7 +1225,9 @@ exports[`renders ./components/list/demo/resposive.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <div>
+        <div
+          style="width:100%;max-width:100%"
+        >
           <div
             class="ant-col"
             style="padding-left:8px;padding-right:8px;flex:1 1 auto"
@@ -1256,7 +1260,9 @@ exports[`renders ./components/list/demo/resposive.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <div>
+        <div
+          style="width:100%;max-width:100%"
+        >
           <div
             class="ant-col"
             style="padding-left:8px;padding-right:8px;flex:1 1 auto"
@@ -1289,7 +1295,9 @@ exports[`renders ./components/list/demo/resposive.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <div>
+        <div
+          style="width:100%;max-width:100%"
+        >
           <div
             class="ant-col"
             style="padding-left:8px;padding-right:8px;flex:1 1 auto"
@@ -1322,7 +1330,9 @@ exports[`renders ./components/list/demo/resposive.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <div>
+        <div
+          style="width:100%;max-width:100%"
+        >
           <div
             class="ant-col"
             style="padding-left:8px;padding-right:8px;flex:1 1 auto"
@@ -1355,7 +1365,9 @@ exports[`renders ./components/list/demo/resposive.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <div>
+        <div
+          style="width:100%;max-width:100%"
+        >
           <div
             class="ant-col"
             style="padding-left:8px;padding-right:8px;flex:1 1 auto"

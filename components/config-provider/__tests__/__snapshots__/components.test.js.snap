@@ -22588,7 +22588,7 @@ exports[`ConfigProvider components Statistic prefixCls 1`] = `
 
 exports[`ConfigProvider components Steps configProvider 1`] = `
 <div
-  class="config-steps config-steps-horizontal config-steps-label-horizontal"
+  class="config-steps config-steps-vertical"
 >
   <div
     class="config-steps-item config-steps-item-process config-steps-item-active"
@@ -22629,7 +22629,7 @@ exports[`ConfigProvider components Steps configProvider 1`] = `
 
 exports[`ConfigProvider components Steps configProvider componentSize large 1`] = `
 <div
-  class="config-steps config-steps-horizontal config-steps-label-horizontal"
+  class="config-steps config-steps-vertical"
 >
   <div
     class="config-steps-item config-steps-item-process config-steps-item-active"
@@ -22670,7 +22670,7 @@ exports[`ConfigProvider components Steps configProvider componentSize large 1`] 
 
 exports[`ConfigProvider components Steps configProvider componentSize middle 1`] = `
 <div
-  class="config-steps config-steps-horizontal config-steps-label-horizontal"
+  class="config-steps config-steps-vertical"
 >
   <div
     class="config-steps-item config-steps-item-process config-steps-item-active"
@@ -22711,7 +22711,7 @@ exports[`ConfigProvider components Steps configProvider componentSize middle 1`]
 
 exports[`ConfigProvider components Steps configProvider virtual and dropdownMatchSelectWidth 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+  class="ant-steps ant-steps-vertical"
 >
   <div
     class="ant-steps-item ant-steps-item-process ant-steps-item-active"
@@ -22752,7 +22752,7 @@ exports[`ConfigProvider components Steps configProvider virtual and dropdownMatc
 
 exports[`ConfigProvider components Steps normal 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+  class="ant-steps ant-steps-vertical"
 >
   <div
     class="ant-steps-item ant-steps-item-process ant-steps-item-active"
@@ -22793,7 +22793,7 @@ exports[`ConfigProvider components Steps normal 1`] = `
 
 exports[`ConfigProvider components Steps prefixCls 1`] = `
 <div
-  class="prefix-Steps prefix-Steps-horizontal prefix-Steps-label-horizontal"
+  class="prefix-Steps prefix-Steps-vertical"
 >
   <div
     class="prefix-Steps-item prefix-Steps-item-process prefix-Steps-item-active"

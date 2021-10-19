@@ -81,11 +81,13 @@ const responsiveObserve = {
   },
 };
 
-export const getScreenMap = (): ScreenMap => {
+export const getScreenMap = () => {
   const screenMap: ScreenMap = {};
+
   responsiveObserve.evaluateResponsiveMap(({ mql, screen }) => {
     screenMap[screen] = mql.matches;
   });
+
   return screenMap;
 };
 

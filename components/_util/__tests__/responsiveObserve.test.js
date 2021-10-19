@@ -1,4 +1,4 @@
-import ResponsiveObserve, { responsiveMap } from '../responsiveObserve';
+import ResponsiveObserve, { responsiveMap, getScreenMap } from '../responsiveObserve';
 
 describe('Test ResponsiveObserve', () => {
   it('test ResponsiveObserve subscribe and unsubscribe', () => {
@@ -10,5 +10,18 @@ describe('Test ResponsiveObserve', () => {
 
     ResponsiveObserve.unsubscribe(token);
     expect(ResponsiveObserve.matchHandlers[xs].mql.removeListener).toBeCalled();
+  });
+
+  it('should initialize screens with correct values', () => {
+    const screens = getScreenMap();
+
+    expect(screens).toMatchObject({
+      xs: true,
+      sm: false,
+      md: false,
+      lg: false,
+      xl: false,
+      xxl: false,
+    });
   });
 });

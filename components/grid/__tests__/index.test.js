@@ -111,7 +111,7 @@ describe('Grid', () => {
 
       return JSON.stringify(screens);
     }
-    const wrapper = mount(<Demo />);
+    const wrapper = render(<Demo />);
 
     expect(wrapper.text()).toEqual(
       JSON.stringify({

@@ -6,6 +6,7 @@ import ResponsiveObserve, {
   Breakpoint,
   ScreenMap,
   responsiveArray,
+  getScreenMap,
 } from '../_util/responsiveObserve';
 import devWarning from '../_util/devWarning';
 import { ConfigContext } from '../config-provider';
@@ -132,7 +133,7 @@ function Descriptions({
 }: DescriptionsProps) {
   const { getPrefixCls, direction } = React.useContext(ConfigContext);
   const prefixCls = getPrefixCls('descriptions', customizePrefixCls);
-  const [screens, setScreens] = React.useState<ScreenMap>({});
+  const [screens, setScreens] = React.useState<ScreenMap>(() => getScreenMap());
   const mergedColumn = getColumn(column, screens);
 
   // Responsive

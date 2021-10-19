@@ -485,6 +485,7 @@ Array [
 exports[`renders ./components/avatar/demo/responsive.md correctly 1`] = `
 <span
   class="ant-avatar ant-avatar-circle ant-avatar-icon"
+  style="width:24px;height:24px;line-height:24px;font-size:12px"
 >
   <span
     aria-label="ant-design"
